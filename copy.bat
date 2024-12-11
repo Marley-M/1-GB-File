@@ -14,7 +14,8 @@ set counter=1
 	echo "file.txt" does not exist
 	echo Do you want to download it?
 	pause
-	wget https://raw.githubusercontent.com/Marley-M/25-MB-File/refs/heads/main/downloads/file.txt
+	wget https://raw.githubusercontent.com/Marley-M/Storage-Eater/refs/heads/downloads/file.txt
+	del .wget-hsts
 	echo resume script?
 	pause
 	goto loop
